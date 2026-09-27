@@ -1,0 +1,78 @@
+{
+ "head": "01-head.html",
+ "tail": "99-tail.html",
+ "blocks": [
+  {
+   "tag": "<script>",
+   "file": "02-logo.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "03-deck-assets.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "04-data-head.js"
+  },
+  {
+   "tag": "<script>",
+   "lib": "__LIB_XLSX__"
+  },
+  {
+   "tag": "<script>",
+   "lib": "__LIB_PPTX__"
+  },
+  {
+   "tag": "<script>",
+   "file": "05-data-tail.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "06-calc.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "07-present.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "08-mod1.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "09-charts.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "10-ppt.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "11-xlsx-out.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "12-vuottroi.js"
+  },
+  {
+   "tag": "<script>",
+   "file": "13-app.js"
+  }
+ ],
+ "seps": [
+  "",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n",
+  "\n"
+ ]
+}
