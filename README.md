@@ -25,3 +25,12 @@ Cập nhật số định kỳ: `node src/tools/nap_kho.js <file-nguồn>.xlsx` 
 
 > Lưu trữ ở đây để không mất mã nguồn khi môi trường làm việc bị thu hồi
 > (đã xảy ra ngày 16/09/2026 — bộ nguồn được tách ngược lại từ chính `index.html`).
+
+## Trang Phú Yên theo từng tháng (từ 11/2026)
+
+- Mỗi tháng một trang riêng: `thang/YYYY-MM/index.html` (link: `.../thang/2026-10/`, `.../thang/2026-11/`).
+  Trang gốc `index.html` = tháng mới nhất. Ô **Chọn tháng** trên đầu trang để chuyển tháng (giữ nguyên tab đang xem).
+- Số liệu mỗi tháng nằm ở `thang/YYYY-MM/seed.json` (kết quả `PIPE.run` của chính trang).
+- Mã trang chung: `app.html` (chỗ giữ `__SEED_JSON__`, `__THANG_JSON__`). Sửa mã thì sửa `app.html`.
+- Cập nhật / thêm tháng: ghi `thang/YYYY-MM/seed.json` rồi chạy `python3 tools/dung_thang.py`, đẩy cả thư mục `thang/` + `index.html`.
+- Số nạp trong trình duyệt được lưu riêng theo tháng (khóa `bhsc-py-R-YYYY-MM`), bản trên web mới hơn sẽ được ưu tiên.
